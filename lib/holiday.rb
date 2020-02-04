@@ -5,7 +5,9 @@ def second_supply_for_fourth_of_july(holiday_hash)
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
-  holiday_has[:winter].each do |holiday, 
+  holiday_hash[:winter].each do |holiday, decorations|
+    decorations << items
+  end 
 
 end
 
